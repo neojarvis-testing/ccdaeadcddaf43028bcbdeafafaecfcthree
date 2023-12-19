@@ -1,0 +1,147 @@
+-------------------------------------------------------------------------------
+Test set: com.examly.springapp.SpringappApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 33, Errors: 0, Skipped: 0, Time elapsed: 11.56 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
+Week3_Day5_SpringSecurity  Time elapsed: 0.565 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Class com.examly.springapp.configurations.ApplSecurityConfig does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkClassExists(SpringappApplicationTests.java:65)
+	at com.examly.springapp.SpringappApplicationTests.Week3_Day5_SpringSecurity(SpringappApplicationTests.java:691)
+
+Week1_Day5_JDBCUtils  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Class com.examly.springapp.JDBCUtils does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkClassExists(SpringappApplicationTests.java:65)
+	at com.examly.springapp.SpringappApplicationTests.Week1_Day5_JDBCUtils(SpringappApplicationTests.java:287)
+
+Week2_Day3_controllersfolder  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.Week2_Day3_controllersfolder(SpringappApplicationTests.java:475)
+
+Week3_Day2_playeradd  Time elapsed: 0.065 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<403>
+	at com.examly.springapp.SpringappApplicationTests.Week3_Day2_playeradd(SpringappApplicationTests.java:591)
+
+Week2_Day2_testWelcome  Time elapsed: 0.041 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<401>
+	at com.examly.springapp.SpringappApplicationTests.Week2_Day2_testWelcome(SpringappApplicationTests.java:409)
+
+Week3_Day3_getallPlayerList  Time elapsed: 0.066 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<401>
+	at com.examly.springapp.SpringappApplicationTests.Week3_Day3_getallPlayerList(SpringappApplicationTests.java:637)
+
+Week1_Day1_testCricketerName  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Field name in class com.examly.springapp.Cricketer does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkFieldExists(SpringappApplicationTests.java:83)
+	at com.examly.springapp.SpringappApplicationTests.Week1_Day1_testCricketerName(SpringappApplicationTests.java:109)
+
+Week3_Day2_getallPlayerWithTeam  Time elapsed: 0.104 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<401>
+	at com.examly.springapp.SpringappApplicationTests.Week3_Day2_getallPlayerWithTeam(SpringappApplicationTests.java:611)
+
+Week3_Day5_configfolder  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.Week3_Day5_configfolder(SpringappApplicationTests.java:681)
+
+Week1_Day1_testCricketerAge  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Field age in class com.examly.springapp.Cricketer does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkFieldExists(SpringappApplicationTests.java:83)
+	at com.examly.springapp.SpringappApplicationTests.Week1_Day1_testCricketerAge(SpringappApplicationTests.java:123)
+
+Week1_Day6_CricketerDAO  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Class com.examly.springapp.CricketDAO does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkClassExists(SpringappApplicationTests.java:65)
+	at com.examly.springapp.SpringappApplicationTests.Week1_Day6_CricketerDAO(SpringappApplicationTests.java:347)
+
+Week2_Day4_TeamClass  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Class com.examly.springapp.entities.Team does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkClassExists(SpringappApplicationTests.java:65)
+	at com.examly.springapp.SpringappApplicationTests.Week2_Day4_TeamClass(SpringappApplicationTests.java:499)
+
+Week2_Day3_entitiesfolder  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.Week2_Day3_entitiesfolder(SpringappApplicationTests.java:427)
+
+Week2_Day4_ClassRepo  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Class com.examly.springapp.repositories.TeamRepository does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkClassExists(SpringappApplicationTests.java:65)
+	at com.examly.springapp.SpringappApplicationTests.Week2_Day4_ClassRepo(SpringappApplicationTests.java:537)
+
+Week2_Day3_getAllTeamsList  Time elapsed: 0.296 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<401>
+	at com.examly.springapp.SpringappApplicationTests.Week2_Day3_getAllTeamsList(SpringappApplicationTests.java:485)
+
+Week1_Day5_displayCricketersFromDB  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method 'displayCricketersFromDB' should exist in SpringappApplication class ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.Week1_Day5_displayCricketersFromDB(SpringappApplicationTests.java:325)
+
+Week1_Day2_Clientinterface  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.Week1_Day2_Clientinterface(SpringappApplicationTests.java:155)
+
+Week1_Day1_testCricketerCountry  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Field country in class com.examly.springapp.Cricketer does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkFieldExists(SpringappApplicationTests.java:83)
+	at com.examly.springapp.SpringappApplicationTests.Week1_Day1_testCricketerCountry(SpringappApplicationTests.java:135)
+
+Week3_Day4_getallUnsoldPlayer  Time elapsed: 0.128 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<401>
+	at com.examly.springapp.SpringappApplicationTests.Week3_Day4_getallUnsoldPlayer(SpringappApplicationTests.java:651)
+
+Week1_Day2_serviceinterface  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.Week1_Day2_serviceinterface(SpringappApplicationTests.java:179)
+
+Week2_Day5_Teamadd  Time elapsed: 0.028 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<403>
+	at com.examly.springapp.SpringappApplicationTests.Week2_Day5_Teamadd(SpringappApplicationTests.java:557)
+
+Week3_Day6_SpringRegisterUser  Time elapsed: 0.026 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<403>
+	at com.examly.springapp.SpringappApplicationTests.Week3_Day6_SpringRegisterUser(SpringappApplicationTests.java:727)
+
+Week3_Day4_getallSoldPlayer  Time elapsed: 0.066 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<401>
+	at com.examly.springapp.SpringappApplicationTests.Week3_Day4_getallSoldPlayer(SpringappApplicationTests.java:663)
+
+Week2_Day6_getallTeam  Time elapsed: 0.035 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<401>
+	at com.examly.springapp.SpringappApplicationTests.Week2_Day6_getallTeam(SpringappApplicationTests.java:575)
+
+Week3_Day3_testPlayerExistence  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Class com.examly.springapp.entities.Player does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkClassExists(SpringappApplicationTests.java:65)
+	at com.examly.springapp.SpringappApplicationTests.Week3_Day3_testPlayerExistence(SpringappApplicationTests.java:515)
+
+Week2_Day3_repositoriesfolder  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.Week2_Day3_repositoriesfolder(SpringappApplicationTests.java:443)
+
+Week1_Day4_testSortCricketersFunctionality  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method 'sortCricketers' should exist in SpringappApplication class ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.Week1_Day4_testSortCricketersFunctionality(SpringappApplicationTests.java:265)
+
+Week3_Day3_testFieldExistence  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Field team in class com.examly.springapp.entities.Player does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkFieldExists(SpringappApplicationTests.java:83)
+	at com.examly.springapp.SpringappApplicationTests.Week3_Day3_testFieldExistence(SpringappApplicationTests.java:621)
+
+Week2_Day3_servicesfolder  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.Week2_Day3_servicesfolder(SpringappApplicationTests.java:459)
+
+Week3_Day6_Springsecurity  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<403>
+	at com.examly.springapp.SpringappApplicationTests.Week3_Day6_Springsecurity(SpringappApplicationTests.java:707)
+
+Week2_Day1_testRetrievedataFromBothTables  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method 'retrieveDataFromBothTables' should exist in SpringappApplication class ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.Week2_Day1_testRetrievedataFromBothTables(SpringappApplicationTests.java:385)
+
+Week1_Day3_testAddCricketersFunctionality  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Method 'addCricketers' should exist in SpringappApplication class ==> expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.Week1_Day3_testAddCricketersFunctionality(SpringappApplicationTests.java:219)
+
+Week1_Day1_testFieldExistence  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Class com.examly.springapp.Cricketer does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkClassExists(SpringappApplicationTests.java:65)
+	at com.examly.springapp.SpringappApplicationTests.Week1_Day1_testFieldExistence(SpringappApplicationTests.java:99)
+
